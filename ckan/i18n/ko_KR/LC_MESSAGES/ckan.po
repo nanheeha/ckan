@@ -2,7 +2,7 @@
 # Copyright (C) 2016 ORGANIZATION
 # This file is distributed under the same license as the ckan project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -295,14 +295,14 @@ msgstr "대량 업데이트를 위한 권한이 없음"
 
 #: ckan/controllers/group.py:466
 msgid "Unauthorized to create a group"
-msgstr "그룹을 생성하기 위해 인증되지 않음 "
+msgstr "그룹을 생성하기 위해 인증되지 않음"
 
 #: ckan/controllers/group.py:518 ckan/controllers/package.py:333
 #: ckan/controllers/package.py:780 ckan/controllers/package.py:1396
 #: ckan/controllers/package.py:1430
 #, python-format
 msgid "User %r not authorized to edit %s"
-msgstr "사용자 %r이 %s를 편집할 권한 없음 "
+msgstr "사용자 %r이 %s를 편집할 권한 없음"
 
 #: ckan/controllers/group.py:544 ckan/controllers/group.py:574
 #: ckan/controllers/package.py:935 ckan/controllers/package.py:983
@@ -314,7 +314,7 @@ msgstr "무결성 오류"
 #: ckan/controllers/group.py:600
 #, python-format
 msgid "User %r not authorized to edit %s authorizations"
-msgstr "사용자 %r은 %s 권한을 편집할 수 있는 권한이 없습니다.  "
+msgstr "사용자 %r은 %s 권한을 편집할 수 있는 권한이 없습니다."
 
 #: ckan/controllers/group.py:620 ckan/controllers/group.py:635
 #, python-format
@@ -350,15 +350,15 @@ msgstr "그룹의 멤버가 삭제 되었습니다."
 
 #: ckan/controllers/group.py:754 ckan/controllers/package.py:421
 msgid "Select two revisions before doing the comparison."
-msgstr "비교를 위해 두 개의 수정안을 선택하세 "
+msgstr "비교를 위해 두 개의 수정안을 선택하세요."
 
 #: ckan/controllers/group.py:778
 msgid "CKAN Group Revision History"
-msgstr "CKAN 그룹 수정 이력 "
+msgstr "CKAN 그룹 수정 이력"
 
 #: ckan/controllers/group.py:782
 msgid "Recent changes to CKAN Group: "
-msgstr "CKAN 그룹의 최근 변경내:"
+msgstr "CKAN 그룹의 최근 변경내역: "
 
 #: ckan/controllers/group.py:803 ckan/controllers/package.py:472
 msgid "Log message: "
@@ -417,7 +417,7 @@ msgstr "데이터셋을 찾을 수 없음 "
 #: ckan/controllers/package.py:369
 #, python-format
 msgid "Invalid revision format: %r"
-msgstr "유효하지 않은 수 형식: %r"
+msgstr "유효하지 않은 수정 형식: %r"
 
 #: ckan/controllers/package.py:402
 msgid ""
@@ -456,7 +456,7 @@ msgstr "리소스 를 편집하기 위한 권한 없음 "
 #: ckan/controllers/package.py:1601 ckanext/datapusher/plugin.py:59
 #: ckanext/resourceproxy/controller.py:33
 msgid "Resource not found"
-msgstr "리소스를 찾을 수 없음 "
+msgstr "리소스를 찾을 수 없음"
 
 #: ckan/controllers/package.py:654
 msgid "Unauthorized to update dataset"
@@ -481,11 +481,11 @@ msgstr "리소스를 생성하기 위한 권한 없음"
 
 #: ckan/controllers/package.py:727
 msgid "Unauthorized to create a resource for this package"
-msgstr "이 패키지를 위한 리소스를 생성하는데 권한이 없음 "
+msgstr "이 패키지를 위한 리소스를 생성하는데 권한이 없음"
 
 #: ckan/controllers/package.py:941
 msgid "Unable to add package to search index."
-msgstr "패키지에 검색 인덱스를 추가할 수 없음"
+msgstr "패키지에 검색 인덱스를 추가할 수 없음."
 
 #: ckan/controllers/package.py:989
 msgid "Unable to update search index."
@@ -529,7 +529,7 @@ msgstr "데이터셋 %s를 읽기 위한 권한 없음"
 #: ckan/controllers/package.py:1413
 #, python-format
 msgid "Unauthorized to read resource %s"
-msgstr "리소스 %s를 읽기 위한 권한 없음 "
+msgstr "리소스 %s를 읽기 위한 권한 없음"
 
 #: ckan/controllers/package.py:1477
 msgid "Unauthorized to edit resource"
@@ -574,7 +574,7 @@ msgstr "수정안이 업데이트됨"
 
 #: ckan/controllers/tag.py:60
 msgid "Other"
-msgstr "기타 "
+msgstr "기타"
 
 #: ckan/controllers/tag.py:74
 msgid "Tag not found"
@@ -585,7 +585,7 @@ msgstr "태그를 찾을 수 없음"
 #: ckan/controllers/user.py:377 ckan/controllers/user.py:524
 #: ckan/controllers/user.py:546 ckan/logic/auth/update.py:178
 msgid "User not found"
-msgstr "사용자를 찾을 수 없음 "
+msgstr "사용자를 찾을 수 없음"
 
 #: ckan/controllers/user.py:161
 msgid "Unauthorized to register as a user."
@@ -644,7 +644,7 @@ msgstr "입력된 비밀번호가 정확하지 않습니다"
 
 #: ckan/controllers/user.py:386 ckan/templates/user/edit_user_form.html:29
 msgid "Old Password"
-msgstr "오래된 비밀번호"
+msgstr "이전 비밀번호"
 
 #: ckan/controllers/user.py:386
 msgid "incorrect password"
@@ -699,7 +699,7 @@ msgstr "입력한 패스워드가 일치하지 않습니다."
 
 #: ckan/controllers/user.py:568
 msgid "You must provide a password"
-msgstr "비밀번호를 입력하여야 합니다."
+msgstr "비밀번호를 입력하여야 합니다"
 
 #: ckan/controllers/user.py:636
 msgid "Follow item not found"
@@ -707,11 +707,11 @@ msgstr "Follow 항목을 찾을 수 없음"
 
 #: ckan/controllers/user.py:640
 msgid "{0} not found"
-msgstr "{0}를 찾을 수 없음 "
+msgstr "{0}를 찾을 수 없음"
 
 #: ckan/controllers/user.py:654
 msgid "Everything"
-msgstr "모든 것"
+msgstr "전체"
 
 #: ckan/controllers/util.py:18 ckan/logic/action/__init__.py:62
 msgid "Missing Value"
@@ -876,12 +876,12 @@ msgstr "바로 지금"
 #: ckan/lib/formatters.py:118
 msgid "{mins} minute ago"
 msgid_plural "{mins} minutes ago"
-msgstr[0] "{mins} 분 이전"
+msgstr[0] "{mins} 분 전"
 
 #: ckan/lib/formatters.py:121
 msgid "{hours} hour ago"
 msgid_plural "{hours} hours ago"
-msgstr[0] "{hours} 시간 이전"
+msgstr[0] "{hours} 시간 전"
 
 #: ckan/lib/formatters.py:127
 msgid "{days} day ago"
@@ -896,7 +896,7 @@ msgstr[0] "{months} 개월 전"
 #: ckan/lib/formatters.py:132
 msgid "over {years} year ago"
 msgid_plural "over {years} years ago"
-msgstr[0] "{years} 년전"
+msgstr[0] "{years} 년 전"
 
 #: ckan/lib/formatters.py:148
 msgid "{month} {day}, {year}, {hour:02}:{min:02} ({timezone})"
@@ -964,7 +964,7 @@ msgstr "{y}Y"
 
 #: ckan/lib/helpers.py:1018
 msgid "Update your avatar at gravatar.com"
-msgstr "gravatar.com에 아바타를 업데이트해 주세요"
+msgstr "gravatar.com에서 아바타를 업데이트해 주세요"
 
 #: ckan/lib/helpers.py:1266 ckan/lib/helpers.py:1279
 msgid "Unknown"
@@ -976,11 +976,11 @@ msgstr "이름이 없는 리소스"
 
 #: ckan/lib/helpers.py:1370
 msgid "Created new dataset."
-msgstr "새로운 데이터셋이 생성됨"
+msgstr "새로운 데이터셋이 생성됨."
 
 #: ckan/lib/helpers.py:1372
 msgid "Edited resources."
-msgstr "리소스가 편집됨"
+msgstr "리소스가 편집됨."
 
 #: ckan/lib/helpers.py:1374
 msgid "Edited settings."
@@ -1788,7 +1788,7 @@ msgstr "일치하는 것을 찾을 수 없음"
 
 #: ckan/public/base/javascript/modules/autocomplete.js:32
 msgid "Start typing…"
-msgstr "타이핑 시작..."
+msgstr "타이핑 시작…"
 
 #: ckan/public/base/javascript/modules/autocomplete.js:34
 msgid "Input is too short, must be at least one character"
@@ -2147,7 +2147,7 @@ msgstr " <p>삭제된 데이터셋을 완전히 제거합니다.</p> "
 
 #: ckan/templates/ajax_snippets/api_info.html:19
 msgid "CKAN Data API"
-msgstr "CKAN 데이 API"
+msgstr "CKAN 데이터 API"
 
 #: ckan/templates/ajax_snippets/api_info.html:23
 msgid "Access resource data via a web API with powerful query support"
@@ -2182,7 +2182,7 @@ msgstr "업데이트 / 추가"
 
 #: ckan/templates/ajax_snippets/api_info.html:50
 msgid "Query"
-msgstr "질"
+msgstr "질의"
 
 #: ckan/templates/ajax_snippets/api_info.html:54
 msgid "Query (via SQL)"
@@ -2443,7 +2443,7 @@ msgstr "이름 내림차순"
 
 #: ckan/templates/group/index.html:29
 msgid "There are currently no groups for this site"
-msgstr "현재 이 사이트에 그룹이 없습니다."
+msgstr "현재 이 사이트에 그룹이 없습니다"
 
 #: ckan/templates/group/index.html:31
 #: ckan/templates/organization/index.html:31
@@ -2570,7 +2570,7 @@ msgstr "관련성"
 #: ckan/templates/snippets/sort_by.html:17
 #: ckanext/example_idatasetform/templates/package/search.html:15
 msgid "Last Modified"
-msgstr "마지막으로 수정됨:"
+msgstr "마지막으로 수정됨"
 
 #: ckan/templates/group/read.html:19 ckan/templates/organization/read.html:23
 #: ckan/templates/package/search.html:33
@@ -2913,7 +2913,7 @@ msgstr "조직 추가"
 
 #: ckan/templates/organization/index.html:20
 msgid "Search organizations..."
-msgstr "기관 찾기"
+msgstr "기관 찾기..."
 
 #: ckan/templates/organization/index.html:29
 msgid "There are currently no organizations for this site"
@@ -3429,7 +3429,7 @@ msgstr "제목"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:4
 msgid "eg. A descriptive title"
-msgstr "예) 설명 제목"
+msgstr "예) 잘 나타내는 제목"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:13
 msgid "eg. my-dataset"
@@ -3437,7 +3437,7 @@ msgstr "예) 나의 데이터셋"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:19
 msgid "eg. Some useful notes about the data"
-msgstr "예) 데이터에 관한 일부 쓸만한 기록"
+msgstr "예) 데이터에 대한 유용한 정보"
 
 #: ckan/templates/package/snippets/package_basic_fields.html:24
 msgid "eg. economy, mental health, government"
@@ -3527,7 +3527,7 @@ msgstr "리소스 갱신"
 
 #: ckan/templates/package/snippets/resource_form.html:24
 msgid "Data"
-msgstr ""
+msgstr "데이터"
 
 #: ckan/templates/package/snippets/resource_form.html:24
 msgid "http://example.com/external-data.csv"
@@ -3577,7 +3577,7 @@ msgstr "이 리소스의 삭제를 원합니까?"
 
 #: ckan/templates/package/snippets/resource_form.html:72
 msgid "Previous"
-msgstr "이전의"
+msgstr "이전"
 
 #: ckan/templates/package/snippets/resource_form.html:75
 msgid "Save & add another"
@@ -3717,7 +3717,7 @@ msgstr "개정"
 
 #: ckan/templates/revision/read.html:30
 msgid "Undelete"
-msgstr "삭제되지 않음"
+msgstr "삭제취소"
 
 #: ckan/templates/revision/read.html:64
 msgid "Changes"
@@ -3969,7 +3969,7 @@ msgstr "계정 정보"
 #: ckan/templates/user/edit.html:19
 msgid ""
 " Your profile lets other CKAN users know about who you are and what you do. "
-msgstr "프로파일을 CKAN 사용자가 볼 수 있도록 해 주세요"
+msgstr "다른 CKAN 사용자가 당신이 누구이고 무엇을 하는지 알 수 있도록 프로필을 작성해주세요."
 
 #: ckan/templates/user/edit_user_form.html:7
 msgid "Change details"
@@ -3977,7 +3977,7 @@ msgstr "상세정보 변경"
 
 #: ckan/templates/user/edit_user_form.html:10
 msgid "Full name"
-msgstr "성명"
+msgstr "전체 이름"
 
 #: ckan/templates/user/edit_user_form.html:10
 msgid "eg. Joe Bloggs"
@@ -4001,7 +4001,7 @@ msgstr "비밀번호 변경"
 
 #: ckan/templates/user/edit_user_form.html:29
 msgid "Sysadmin Password"
-msgstr ""
+msgstr "관리자 비밀번호"
 
 #: ckan/templates/user/edit_user_form.html:37
 #: ckan/templates/user/logout_first.html:12
@@ -4013,7 +4013,7 @@ msgstr "비밀번호"
 
 #: ckan/templates/user/edit_user_form.html:39
 msgid "Confirm Password"
-msgstr "비밀번호 확인하기"
+msgstr "비밀번호 확인"
 
 #: ckan/templates/user/edit_user_form.html:45
 msgid "Are you sure you want to delete this User?"
@@ -4048,7 +4048,7 @@ msgstr "계정이 필요하나요?"
 
 #: ckan/templates/user/login.html:27
 msgid "Then sign right up, it only takes a minute."
-msgstr "등록하면 약간의 시간이 소요됩니다. "
+msgstr "그렇다면 계정을 생성하십시오. 1분이면 가능합니다."
 
 #: ckan/templates/user/login.html:30
 msgid "Create an Account"
@@ -4121,7 +4121,7 @@ msgstr "사용자명"
 
 #: ckan/templates/user/new_user_form.html:6
 msgid "Full Name"
-msgstr "전체이음"
+msgstr "전체 이름"
 
 #: ckan/templates/user/new_user_form.html:17
 msgid "Create Account"
@@ -4207,11 +4207,11 @@ msgstr "검색 항목.."
 
 #: ckan/templates/user/snippets/followee_dropdown.html:44
 msgid "You are not following anything"
-msgstr "팔로잉하지 않고 있습니다."
+msgstr "팔로잉하지 않고 있습니다"
 
 #: ckan/templates/user/snippets/followers.html:9
 msgid "No followers"
-msgstr "follower 없음"
+msgstr "Follower 없음"
 
 #: ckan/templates/user/snippets/user_search.html:5
 msgid "Search Users"
